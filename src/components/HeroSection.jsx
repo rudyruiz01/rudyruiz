@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <header className=" w-full h-[500px] px-2 bg-[url('./assets/hero-mobile.jpeg')] sm:bg-[url('./assets/hero.jpeg')] bg-right bg-cover bg-no-repeat lg:bg-center lg:h-[580px]">
       <div className="w-full h-full pl-2 md:pl-12 lg:pl-18 text-center">
-        <h1 className="text-red-800 text-5xl tracking-widest font-bold text-transparent bg-clip-text pt-6 text-center md:text-left lg:pt-24 sm:text-6xl md:text-7xl lg:text-8xl">
+        <h1 className="text-red-800 text-5xl tracking-widest font-bold bg-clip-text pt-6 text-center md:text-left lg:pt-24 sm:text-6xl md:text-7xl lg:text-8xl">
           RUDY RUIZ
         </h1>
         <div className="text-slate-200 tracking-wide font-semibold pt-32 text-xl md:text-2xl md:text-left md:pt-12 lg:text-2xl">
@@ -23,8 +23,7 @@ const HeroSection = () => {
           <button className="text-md text-red-700 font-semibold tracking-wider bg-slate-200 border-2 border-red-800 rounded-md py-3 px-4 md:text-xl md:px-16">
             Contact
           </button>
-        </div>
-        
+        </div>      
       </div>           
     </header>          
   )

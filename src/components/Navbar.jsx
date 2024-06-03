@@ -52,6 +52,12 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
+            <a href="#">
+              <FontAwesomeIcon icon={faLinkedin} className='w-6 h-6 mr-3 py-4'/>      
+            </a>
+            <a href="#">
+              <FontAwesomeIcon icon={faGithub} className='w-6 h-6 py-4'/>
+            </a>  
           </div>
         )}
       </div>
