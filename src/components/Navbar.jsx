@@ -12,8 +12,8 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="sticky top-0 z-50 backdrop-blur-3xl bg-white text-gray-700">
-      <div className="w-full px-4 py-3 mx-auto"> 
+    <nav className="sticky top-0 z-50 backdrop-blur-3xl bg-black opacity-85 text-slate-200">
+      <div className="px-4 py-3 max-w-screen-xl mx-auto"> 
         <div className="flex items-center justify-between">
           <div className="roboto-medium tracking-[.2rem]">
             Rudy Ruiz
@@ -44,7 +44,7 @@ const Navbar = () => {
         </div>
         {/* Mobile Navigation Section */}
         {mobileMenuOpen && (
-          <div className="fixed right-0 text-center w-full flex flex-col justify-center items-center bg-neutral-800 text-gray-300 md:hidden">
+          <div className="fixed right-0 text-center w-full flex flex-col justify-center items-center bg-black text-gray-300 md:hidden">
             <ul>
               {navItems.map((item, index) => (
                 <li key={index} className="py-4">

@@ -1,39 +1,32 @@
-import hero from '../assets/hero.PNG';
+import hero from '../assets/hero.jpeg';
 
 const HeroSection = () => {
   return (
-    <header className=" w-full h-56 px-2 bg-[url('./assets/hero.PNG')] bg-contain bg-no-repeat bg-center flex flex-col items-center justify-around text-center sm:h-72 md:h-96 lg:h-[580px]">
-      <div className="-z-10 w-full">
-        <div className="flex flex-row justify-around">
-          <div className="bg-gradient-to-r from-green-500 via-black to-blue-600 text-transparent bg-clip-text tracking-wide font-semibold -z-10 pr-24 sm:text-xl md:text-2xl lg:text-3xl">
-            Texas A&M Alumni            
-          </div>
-          <div className="bg-gradient-to-r from-green-500 via-black to-blue-600 text-transparent bg-clip-text tracking-wide font-semibold -z-10 sm:text-xl md:text-2xl lg:text-3xl">
-            Summa Cum Laude
-          </div>
+    <header className=" w-full h-[500px] px-2 bg-[url('./assets/hero-mobile.jpeg')] sm:bg-[url('./assets/hero.jpeg')] bg-right bg-cover bg-no-repeat lg:bg-center lg:h-[580px]">
+      <div className="w-full h-full pl-2 md:pl-12 lg:pl-18 text-center">
+        <h1 className="text-red-800 text-5xl tracking-widest font-bold text-transparent bg-clip-text pt-6 text-center md:text-left lg:pt-24 sm:text-6xl md:text-7xl lg:text-8xl">
+          RUDY RUIZ
+        </h1>
+        <div className="text-slate-200 tracking-wide font-semibold pt-32 text-xl md:text-2xl md:text-left md:pt-12 lg:text-2xl">
+          Software Engineer        
         </div>
-        <h1 className="uppercase bg-gradient-to-r from-green-500 via-black to-blue-600 text-6xl tracking-widest font-medium text-transparent bg-clip-text pt-4 -z-10 sm:text-8xl md:text-9xl lg:text-[160px]">
-        Limitless
-        </h1> 
-        <div className="flex flex-row justify-around sm:justify-around w-full pt-4">
-          <div className="bg-gradient-to-r from-green-500 via-black to-blue-600 text-transparent bg-clip-text tracking-wide font-semibold pr-28 sm:text-xl md:text-2xl lg:text-3xl">
-            Software Engineer
-          </div>
-          <div className="bg-gradient-to-r from-green-500 via-black to-blue-600 text-transparent bg-clip-text tracking-wide font-semibold sm:text-xl md:text-2xl lg:text-3xl">
-            Hire Me :)
-          </div>
+        <div className="text-slate-200 tracking-wide font-semibold pt-4 text-xl md:text-2xl lg:text-left lg:text-2xl lg:pl-72">
+          Texas A&M Alumni 
         </div>
-      </div>           
-        {/* <div>
-          <a href="#" className="bg-blue-800 text-gray-300 mx-3 py-3 px-4 rounded-3xl text-xl z-10">
+        <div className="text-slate-200 tracking-wide font-semibold pt-4 text-xl md:text-2xl md:text-left lg:text-2xl">
+          Summa Cum Laude 
+        </div>
+        <div className="flex flex-col justify-center pt-12 md:flex-row sm:justify-start">
+          <button className="text-md text-slate-200 font-semibold tracking-wider bg-gradient-to-r from-black to-red-700 rounded-md py-3 px-4 mb-3 md:text-xl md:mb-0 md:mr-5 md:px-16">
+          Projects
+          </button>
+          <button className="text-md text-red-700 font-semibold tracking-wider bg-slate-200 border-2 border-red-800 rounded-md py-3 px-4 md:text-xl md:px-16">
             Contact
-          </a>  
-          <a href="#" className="bg-black text-gray-300 mx-3 py-3 px-4 rounded-3xl text-xl relative z-10">
-            Cover Letter
-          </a>   
-        </div>  */}
-    </header>    
-      
+          </button>
+        </div>
+        
+      </div>           
+    </header>          
   )
 }
 
