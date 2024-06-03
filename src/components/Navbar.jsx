@@ -12,7 +12,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="sticky top-0 z-50 backdrop-blur-3xl bg-black opacity-85 text-slate-200">
+    <nav className="sticky top-0 z-50 backdrop-blur-3xl bg-gray-900 opacity-85 text-slate-200">
       <div className="px-4 py-3 max-w-screen-xl mx-auto"> 
         <div className="flex items-center justify-between">
           <div className="roboto-medium tracking-[.2rem]">
@@ -28,10 +28,10 @@ const Navbar = () => {
           </ul>
           {/* Social Links */}
           <div className="hidden md:flex justify-center items-center">
-            <a href="#">
+            <a href="https://www.linkedin.com/in/rudyruiz007/">
               <FontAwesomeIcon icon={faLinkedin} className='w-6 h-6 mr-3'/>      
             </a>
-            <a href="#">
+            <a href="https://github.com/rudyruiz01">
               <FontAwesomeIcon icon={faGithub} className='w-6 h-6'/>
             </a>       
           </div>
@@ -52,10 +52,10 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/rudyruiz007/">
               <FontAwesomeIcon icon={faLinkedin} className='w-6 h-6 mr-3 py-4'/>      
             </a>
-            <a href="#">
+            <a href="https://github.com/rudyruiz01">
               <FontAwesomeIcon icon={faGithub} className='w-6 h-6 py-4'/>
             </a>  
           </div>

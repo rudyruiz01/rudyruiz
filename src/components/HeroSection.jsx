@@ -2,8 +2,8 @@ import hero from '../assets/hero.jpeg';
 
 const HeroSection = () => {
   return (
-    <header className="w-full h-[500px] px-2 bg-[url('./assets/hero-mobile.jpeg')] sm:bg-[url('./assets/hero.jpeg')] bg-top bg-cover bg-no-repeat lg:bg-center lg:h-[580px] overflow-hidden">
-      <div className="w-full h-full pl-2 md:pl-12 lg:pl-18 text-center">
+    <header className="w-full h-[500px] px-2 bg-[url('./assets/hero-mobile.jpeg')] sm:bg-[url('./assets/hero.jpeg')] bg-top bg-cover bg-no-repeat lg:h-[580px] overflow-hidden">
+      <div className="w-full h-full pl-2 md:pl-12 lg:pl-32 text-center">
         <h1 className="text-red-800 text-5xl tracking-widest font-bold bg-clip-text pt-6 text-center md:text-left lg:pt-24 sm:text-6xl md:text-7xl lg:text-8xl">
           RUDY RUIZ
         </h1>
