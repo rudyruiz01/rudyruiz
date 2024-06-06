@@ -9,8 +9,10 @@ const App = () => {
     <div className="max-w-screen-2xl mx-auto bg-black">
       <Navbar/>
       <HeroSection/> 
-      <AboutMe/>
-      <Skills/>
+      <main>
+        <AboutMe/>
+        <Skills/>
+      </main>    
     </div>
   )
 }
