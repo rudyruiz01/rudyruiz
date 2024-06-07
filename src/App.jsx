@@ -2,6 +2,7 @@ import AboutMe from "./components/AboutMe"
 import HeroSection from "./components/HeroSection"
 import Navbar from "./components/Navbar"
 import Skills from "./components/Skills"
+import Test from "./components/Test"
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       <main>
         <AboutMe/>
         <Skills/>
+        <Test/>
       </main>    
     </div>
   )
