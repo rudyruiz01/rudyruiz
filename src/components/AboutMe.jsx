@@ -8,7 +8,7 @@ const AboutMe = () => {
           <img src={aboutImg} alt="" className="object-contain max-w-96 mx-auto overflow-hidden"/>
         </div>
         <div className="text-slate-400 flex flex-col pt-4 sm:w-3/5 sm:pl-12 sm:pt-10">
-          <h2 className="text-slate-200 font-medium text-2xl self-center w-fit pr-2 mb-5 sm:self-start tracking-wider shadow-[15px_10px_0px_0px_rgba(153,27,27,1)] ">
+          <h2 className="text-slate-200 font-medium text-5xl self-center w-fit pr-2 mb-5 sm:self-start tracking-wider shadow-[15px_10px_0px_0px_rgba(153,27,27,1)] ">
             Who Is He
           </h2>
           <h3 className="text-lg font-medium sm:text-xl tracking-wide text-slate-200">
