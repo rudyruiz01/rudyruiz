@@ -20,7 +20,7 @@ import javaProjectImg from '../assets/javaProjectThumbnail.png';
 import realestateImg from '../assets/realestateThumbnail.gif';
 
 export const navItems = [
-  {label: "About Me", href: "#"},
+  {label: "About Me", href: "#about-section"},
   {label: "Projects", href: "#project-section"},
   {label: "Resume", href: "#"},
   {label: "Contact", href: "#"}

@@ -2,7 +2,7 @@ import aboutImg from '../assets/about.jpeg';
 
 const AboutMe = () => {
   return (
-    <div className="w-full px-2 flex flex-row bg-gray-900 lg:h-[580px] overflow-hidden roboto-regular">      
+    <div className="w-full px-2 flex flex-row bg-gray-900 lg:h-[580px] overflow-hidden roboto-regular" id="about-section">      
       <div className="sm:flex flex-row text-sm max-h-max overflow-hidden my-8">
         <div className="flex sm:w-2/5 justify-center">
           <img src={aboutImg} alt="" className="object-contain max-w-96 mx-auto overflow-hidden"/>

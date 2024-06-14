@@ -44,7 +44,7 @@ const Navbar = () => {
         </div>
         {/* Mobile Navigation Section */}
         {mobileMenuOpen && (
-          <div className="fixed right-0 text-center w-full flex flex-col justify-center items-center bg-black text-gray-300 md:hidden">
+          <div className="text-2xl fixed right-0 text-center w-full flex flex-col justify-center items-center bg-gray-900 text-gray-300 md:hidden">
             <ul>
               {navItems.map((item, index) => (
                 <li key={index} className="py-4">
@@ -53,10 +53,10 @@ const Navbar = () => {
               ))}
             </ul>
             <a href="https://www.linkedin.com/in/rudyruiz007/">
-              <FontAwesomeIcon icon={faLinkedin} className='w-6 h-6 mr-3 py-4'/>      
+              <FontAwesomeIcon icon={faLinkedin} className='w-10 h-10 mr-3 py-4'/>      
             </a>
             <a href="https://github.com/rudyruiz01">
-              <FontAwesomeIcon icon={faGithub} className='w-6 h-6 py-4'/>
+              <FontAwesomeIcon icon={faGithub} className='w-10 h-10 py-4'/>
             </a>  
           </div>
         )}
