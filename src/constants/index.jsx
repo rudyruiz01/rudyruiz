@@ -43,8 +43,30 @@ export const skills = [
 ]
 
 export const projects = [
-  {name: "Portfolio Website", image: portfolioImg, website: "http://rudyruiz.dev", github:"https://github.com/rudyruiz01/rudyruiz", technologies:['React', 'Tailwind CSS', 'GitHub', 'Hostinger']},
-  {name: "JJs Party Packs Website", image: jjsWebsiteImg, website: "http://jjspartypacks.com/", github:"https://github.com/rudyruiz01/jjs-party-packs", technologies:['Javascript', 'HTML', 'CSS', 'AWS S3', 'AWS route53']},
-  {name: "Java Term Project", image: javaProjectImg, github:"https://github.com/rudyruiz01/Java-Term-Project", technologies:['Java']},
-  {name: "Real Estate Management Web App", image: realestateImg, website: "", github:"", technologies:['Coming Soon']},
+  {
+    name: "Portfolio Website", 
+    image: portfolioImg, 
+    website: "http://rudyruiz.dev", 
+    github:"https://github.com/rudyruiz01/rudyruiz", 
+    technologies:['React', 'Tailwind CSS', 'GitHub', 'Hostinger']
+  },
+  {
+    name: "JJs Party Packs Website", 
+    image: jjsWebsiteImg, website: "http://jjspartypacks.com/", 
+    github:"https://github.com/rudyruiz01/jjs-party-packs", 
+    technologies:['Javascript', 'HTML', 'CSS', 'AWS S3', 'AWS route53']
+  },
+  {
+    name: "Java Term Project", 
+    image: javaProjectImg, 
+    github:"https://github.com/rudyruiz01/Java-Term-Project", 
+    technologies:['Java']
+  },
+  {
+    name: "Real Estate Management Web App", 
+    image: realestateImg, 
+    website: "", 
+    github:"", 
+    technologies:['Coming Soon']
+  },
 ]
