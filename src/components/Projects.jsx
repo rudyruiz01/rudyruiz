@@ -17,7 +17,7 @@ const Projects = () => {
             <div className="flex w-72 h-96 mb-4 justify-center">
               {project.name == 'Real Estate Management Web App' ? 
               <img src={project.image} alt="" className="object-contain w-40 h-40 self-center"/> :
-              <img src={project.image} alt="" className="object-fill overflow-hidden"/>
+              <img src={project.image} alt="" className="object-fill"/>
               }
             </div>
             {/* Links */}

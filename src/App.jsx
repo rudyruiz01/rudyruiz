@@ -8,14 +8,16 @@ import Test from "./components/Test"
 
 const App = () => {
   return (
-    <div className="max-w-screen-2xl mx-auto bg-black">
-      <Navbar/>
-      <HeroSection/> 
-      <main>
-        <AboutMe/>
-        <Skills/>
-        <Projects/>
-      </main>    
+    <div className="bg-gray-900">
+      <div className="max-w-screen-2xl mx-auto">
+        <Navbar/>
+        <HeroSection/> 
+        <main>
+          <AboutMe/>
+          <Projects/>
+          <Skills/>          
+        </main>  
+      </div>        
     </div>
   )
 }
