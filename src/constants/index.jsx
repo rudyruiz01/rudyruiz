@@ -22,7 +22,7 @@ import realestateImg from '../assets/realestateThumbnail.gif';
 export const navItems = [
   {label: "About Me", href: "#about-section"},
   {label: "Projects", href: "#project-section"},
-  {label: "Resume", href: "#"},
+  {label: "Resume", href: "https://drive.google.com/file/d/1tuHwfPlsNrmj1DVkdX4DeaWjAO8bv8Sk/view?usp=share_link"},
   {label: "Contact", href: "#"}
 ];
 

@@ -22,16 +22,18 @@ const Navbar = () => {
           <ul className="hidden md:flex flex-row">
             {navItems.map((item, index) => (
               <li key={index} className="mr-8">
-                <a href={item.href}>{item.label}</a>            
+                <a href={item.href} target={'Resume' == item.label ? "_blank" : null}>
+                  {item.label}
+                </a>            
               </li>
             ))}
           </ul>
           {/* Social Links */}
           <div className="hidden md:flex justify-center items-center">
-            <a href="https://www.linkedin.com/in/rudyruiz007/">
+            <a href="https://www.linkedin.com/in/rudyruiz007/" target="_blank">
               <FontAwesomeIcon icon={faLinkedin} className='w-6 h-6 mr-3'/>      
             </a>
-            <a href="https://github.com/rudyruiz01">
+            <a href="https://github.com/rudyruiz01" target="_blank">
               <FontAwesomeIcon icon={faGithub} className='w-6 h-6'/>
             </a>       
           </div>

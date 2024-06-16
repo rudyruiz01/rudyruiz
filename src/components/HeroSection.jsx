@@ -17,9 +17,9 @@ const HeroSection = () => {
           Summa Cum Laude 
         </div>
         <div className="flex flex-col justify-center pt-12 md:flex-row sm:justify-start">
-          <button className="text-md text-slate-200 font-semibold tracking-wider bg-gradient-to-r from-black to-red-700 rounded-md py-3 px-4 mb-3 md:text-xl md:mb-0 md:mr-5 md:px-16">
-            <a href="#project-section">
-              Projects
+          <button className="text-md text-slate-200 font-semibold tracking-wider bg-red-700 rounded-md py-3 px-4 mb-3 md:text-xl md:mb-0 md:mr-5 md:px-16">
+            <a href="https://drive.google.com/file/d/1tuHwfPlsNrmj1DVkdX4DeaWjAO8bv8Sk/view?usp=share_link" target="_blank">
+              Resume
             </a>          
           </button>
           <button className="text-md text-red-700 font-semibold tracking-wider bg-slate-200 border-2 border-red-800 rounded-md py-3 px-4 md:text-xl md:px-16">
