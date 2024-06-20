@@ -20,53 +20,53 @@ import javaProjectImg from '../assets/javaProjectThumbnail.png';
 import realestateImg from '../assets/realestateThumbnail.gif';
 
 export const navItems = [
-  {label: "About Me", href: "#about-section"},
-  {label: "Projects", href: "#project-section"},
-  {label: "Resume", href: "https://drive.google.com/file/d/1tuHwfPlsNrmj1DVkdX4DeaWjAO8bv8Sk/view?usp=share_link"},
-  {label: "Contact", href: "#"}
+  { label: "About Me", href: "#about-section" },
+  { label: "Projects", href: "#project-section" },
+  { label: "Resume", href: "https://docs.google.com/document/d/161WRnZ3sjba_Jtq1wDnSYlPHEnMvSTdYlSGkupGt0Yg/edit?usp=share_link" },
+  { label: "Contact", href: "#" }
 ];
 
 export const skills = [
-  {icon: react, label: 'React', alt: 'react logo'},
-  {icon: aws, label: 'AWS', alt: 'aws logo'},
-  {icon: java, label: 'Java', alt: 'java logo'},
-  {icon: cpp, label: 'C++', alt: 'c plus plus logo'},
-  {icon: csharp, label: 'C#', alt: 'c sharp logo'},
-  {icon: css, label: 'CSS', alt: 'css logo'},
-  {icon: html, label: 'HTML', alt: 'html logo'},
-  {icon: javascript, label: 'Javascript', alt: 'javascript logo'},
-  {icon: gitlab, label: 'GitLab', alt: 'gitlab logo'},
-  {icon: github, label: 'GitHub', alt: 'github logo'},
-  {icon: selenium, label: 'Selenium', alt: 'selenium logo'},
-  {icon: sql, label: 'SQL', alt: 'SQL icon'},
-  {icon: tailwind, label: 'Tailwind CSS', alt: 'Tailwind CSS icon'}
+  { icon: react, label: 'React', alt: 'react logo' },
+  { icon: aws, label: 'AWS', alt: 'aws logo' },
+  { icon: java, label: 'Java', alt: 'java logo' },
+  { icon: cpp, label: 'C++', alt: 'c plus plus logo' },
+  { icon: csharp, label: 'C#', alt: 'c sharp logo' },
+  { icon: css, label: 'CSS', alt: 'css logo' },
+  { icon: html, label: 'HTML', alt: 'html logo' },
+  { icon: javascript, label: 'Javascript', alt: 'javascript logo' },
+  { icon: gitlab, label: 'GitLab', alt: 'gitlab logo' },
+  { icon: github, label: 'GitHub', alt: 'github logo' },
+  { icon: selenium, label: 'Selenium', alt: 'selenium logo' },
+  { icon: sql, label: 'SQL', alt: 'SQL icon' },
+  { icon: tailwind, label: 'Tailwind CSS', alt: 'Tailwind CSS icon' }
 ]
 
 export const projects = [
   {
-    name: "Portfolio Website", 
-    image: portfolioImg, 
-    website: "http://rudyruiz.dev", 
-    github:"https://github.com/rudyruiz01/rudyruiz", 
-    technologies:['React', 'Tailwind CSS', 'GitHub', 'Hostinger']
+    name: "Portfolio Website",
+    image: portfolioImg,
+    website: "http://rudyruiz.dev",
+    github: "https://github.com/rudyruiz01/rudyruiz",
+    technologies: ['React', 'Tailwind CSS', 'GitHub', 'Hostinger']
   },
   {
-    name: "JJs Party Packs Website", 
-    image: jjsWebsiteImg, website: "http://jjspartypacks.com/", 
-    github:"https://github.com/rudyruiz01/jjs-party-packs", 
-    technologies:['Javascript', 'HTML', 'CSS', 'AWS S3', 'AWS route53']
+    name: "JJs Party Packs Website",
+    image: jjsWebsiteImg, website: "http://jjspartypacks.com/",
+    github: "https://github.com/rudyruiz01/jjs-party-packs",
+    technologies: ['Javascript', 'HTML', 'CSS', 'AWS S3', 'AWS route53']
   },
   {
-    name: "Java Term Project", 
-    image: javaProjectImg, 
-    github:"https://github.com/rudyruiz01/Java-Term-Project", 
-    technologies:['Java']
+    name: "Java Term Project",
+    image: javaProjectImg,
+    github: "https://github.com/rudyruiz01/Java-Term-Project",
+    technologies: ['Java']
   },
   {
-    name: "Real Estate Management Web App", 
-    image: realestateImg, 
-    website: "", 
-    github:"", 
-    technologies:['Coming Soon']
+    name: "Real Estate Management Web App",
+    image: realestateImg,
+    website: "",
+    github: "",
+    technologies: ['Coming Soon']
   },
 ]
