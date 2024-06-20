@@ -19,10 +19,12 @@ import jjsWebsiteImg from '../assets/jjsthumbnail.jpeg';
 import javaProjectImg from '../assets/javaProjectThumbnail.png';
 import realestateImg from '../assets/realestateThumbnail.gif';
 
+export const resumeLink = "https://docs.google.com/document/d/161WRnZ3sjba_Jtq1wDnSYlPHEnMvSTdYlSGkupGt0Yg/edit?usp=share_link"
+
 export const navItems = [
   { label: "About Me", href: "#about-section" },
   { label: "Projects", href: "#project-section" },
-  { label: "Resume", href: "https://docs.google.com/document/d/161WRnZ3sjba_Jtq1wDnSYlPHEnMvSTdYlSGkupGt0Yg/edit?usp=share_link" },
+  { label: "Resume", href: resumeLink },
   { label: "Contact", href: "#" }
 ];
 
