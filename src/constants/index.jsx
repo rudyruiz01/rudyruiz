@@ -19,7 +19,7 @@ import jjsWebsiteImg from '../assets/jjsthumbnail.jpeg';
 import javaProjectImg from '../assets/javaProjectThumbnail.png';
 import realestateImg from '../assets/realestateThumbnail.gif';
 
-export const resumeLink = "https://docs.google.com/document/d/161WRnZ3sjba_Jtq1wDnSYlPHEnMvSTdYlSGkupGt0Yg/edit?usp=share_link"
+export const resumeLink = "https://drive.google.com/file/d/1eeTbEtvAvZXIIwzI1eCA-uHzviXL6vs2/view?usp=share_link"
 
 export const navItems = [
   { label: "About Me", href: "#about-section" },
